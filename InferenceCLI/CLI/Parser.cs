@@ -2,13 +2,13 @@
 
 namespace InferenceCLI.CLI
 {
-    internal class CLI
+    internal class Parser
     {
         private readonly RootCommand rootCommand;
         private Option<string> modelOption;
         private Option<string> precisionOption;
 
-        public CLI() {
+        public Parser() {
             // Define the options
             modelOption = new Option<string>(
                 "--model",
