@@ -2,7 +2,7 @@
 
 namespace InferenceCLI.CLI
 {
-    internal class Parser
+    public class Parser
     {
         private readonly RootCommand rootCommand;
         private Option<string> modelOption;
